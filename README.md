@@ -44,7 +44,7 @@ The result from the aforementioned query was captured in the tab month_wise_trip
 
 ## Visualization:
 
-![Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled.png](Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled.png)
+![README/Untitled.png](README/Untitled.png)
 
 ## Analysis Conclusion:
 
@@ -84,9 +84,9 @@ ORDER BY 2,1
 
 ## Visualization
 
-![Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%201.png](Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%201.png)
+![README.png](README/Untitled1.png)
 
-![Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%202.png](Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%202.png)
+![README/Untitled2.png](README/Untitled2.png)
 
 ## Analysis Conclusion:
 
