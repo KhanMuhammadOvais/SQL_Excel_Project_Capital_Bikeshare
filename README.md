@@ -132,7 +132,7 @@ GROUP BY 1
 
 ## Visualization
 
-![Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%203.png](Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%203.png)
+![README/Untitled3.png](README/Untitled3.png)
 
 ## **Analysis:**
 
@@ -229,9 +229,9 @@ SELECT * FROM outer_cte WHERE end_station_id <> next_start_station_id
 
 ## Visualization
 
-![Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%204.png](Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%204.png)
+![README/Untitled4.png](README/Untitled4.png)
 
-![Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%205.png](Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%205.png)
+![README/Untitled5.png](README/Untitled5.png)
 
 ## Analysis:
 
@@ -240,17 +240,17 @@ SELECT * FROM outer_cte WHERE end_station_id <> next_start_station_id
 - Below are the top 20 locations that required relocations, so we need to dig deeper into root cause of these relocations and if they are due to having limited dock stations, then may be we need to add some more dock stations at these locations.
 - A good measure to look at these locations would be the ratio of trips to these stations vs dock space and below is a summary of top 15 stations that had the most relocations along with trips per docks information.
 
-![Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%206.png](Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%206.png)
+![README/Untitled6.png](README/Untitled6.png)
 
 - The average docks for these stations is `11` and average trips per docks number was `2,869` for these stations. Now lets compare this against the stations that had the least relocations.
 
-![Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%207.png](Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%207.png)
+![README/Untitled7.png](README/Untitled7.png)
 
 - The average docks for these stations is `11` as well but the average trips per docks number was just `14` for these stations.
 
 *So we clearly see two extremes here but we can easily make a conclusion that the stations that had the most relocations, don't have enough docks compared to the demands at those stations. Comparing the aforementioned information to overall numbers in 2019, we see that, the average number of trips per station is `5850`. And average docks per station is `9`. So average trips per average docs gives us a number of **650 trips** per dock. And clearly the stations performing worst have atleast `4 times` less then the required docks.* 
 
-![Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%208.png](Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%208.png)
+![README/Untitled8.png](README/Untitled8.png)
 
 # How far is a typical journey?
 
@@ -302,11 +302,11 @@ GROUP BY 1, 2
 
 ## Visualizations and Answer
 
-![Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%209.png](Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%209.png)
+![README/Untitled9.png](README/Untitled9.png)
 
-![Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%2010.png](Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%2010.png)
+![README/Untitled10.png](README/Untitled10.png)
 
-![Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%2011.png](Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%2011.png)
+![README/Untitled11.png](README/Untitled11.png)
 
 # How effective are subscription systems?
 
@@ -337,7 +337,7 @@ GROUP BY 1, 2, 3
 
 ## Visualization
 
-![Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%2012.png](Project%20#1%20-%20SQL%20&%20Excel%20-%20Capital%20Bikeshare%20af4e50c7bba843ffad4d0516d2d9f917/Untitled%2012.png)
+![README/Untitled12.png](README/Untitled12.png)
 
 ## Analysis
 
